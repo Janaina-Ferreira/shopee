@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  overflow: y;
+  margin-right: 0;
+  margin-left: 0;
+  
+}
+
+.tudo{
+  margin: 10px;
+}
+
+.cupom-shopee{
+    background-color: yellow;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    margin: auto;
+    font-size: 0.8em;
+    padding: 2px;
+    
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+   
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+
+ 
+header{
+    background-color: #F2442E;
+}
+
+header > div > a > img{
+    align-items: center;
+    width: 100%;
+    border-radius: 20px; 
+      
+}
+
+h1{
+    text-align: center;
+    font-size: 1.2em;
+   
+}
+
+.catalogo{
+    text-align: center;
+}
+
+.planos-ton{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #00CC2C;
+     
+    
+}
+
+
+
+.plano-ton{
+    
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 20px;
+    
+
+   
+}
+
+.plano-ton:hover{
+    border: 1px solid #009420;
+}
+
+.ton-cel{
+    text-align: center;
+    background-color: #D5DEE8;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 25px;
+    
+  
+}
+
+h2{
+ text-align: center;
+}
+
+
+
+.desc{
+    background-color: #00cc2c9d;
+    border-radius: 13px 13px 0px 0px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 2px;
+    margin: auto;
+ 
+   
+}
+
+produtos{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.445);
+
+}
+ 
+.foto{
+    width: 80%;
+}
+
+button{
+    background-color: #F2442E;
+    border: 1px solid #F2442E;
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+       
+}
+
+button:hover{
+    background-color:#f0f0f0;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease;
+}
+
+a{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #F2442E;
+}
+
+footer{
+    text-align: center;
+    background-color: #EE4E2E;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 0.7em;
+    
+}
+
+.categoria{
+    background-color: #ee4e2ed3;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.produtos{
+    text-align: center;
+   width: 50%;
+    margin-top: 20px;
+}
