@@ -65,6 +65,7 @@
     </header>
     <nav class="navbar">
       <div class="menu-toggle" id="mobile-menu">
+        <span class="me">MENU</span>
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -119,6 +120,10 @@
         </li>
       </ul>
     </nav>
+
+
+    
+ 
     
 
     <div class="tudo">
@@ -345,5 +350,14 @@
     <footer>Copyright © 2024 | Top Afiliado Autorizado Shopee </footer>
 
     <script src="script.js"></script>
+      <!-- Script para alternar a visibilidade do menu -->
+      <script>
+        const mobileMenu = document.getElementById("mobile-menu");
+        const navList = document.querySelector(".nav-list");
+  
+        mobileMenu.addEventListener("click", () => {
+          navList.classList.toggle("active");
+        });
+      </script>
 </body>
 </html>
