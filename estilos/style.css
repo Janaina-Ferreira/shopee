@@ -195,3 +195,15 @@ footer{
     flex-wrap: wrap;
     
 }
+
+.moda{
+        
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infantil{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
