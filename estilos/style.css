@@ -183,6 +183,15 @@ footer{
 
 .produtos{
     text-align: center;
-   width: 50%;
+    width: 40%;
     margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.celular{
+        
+    display: flex;
+    flex-wrap: wrap;
+    
 }
