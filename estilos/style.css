@@ -118,9 +118,9 @@ h2{
     background-color: #00cc2c9d;
     border-radius: 13px 13px 0px 0px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: bolder;
-    padding: 2px;
+    padding: 1.9px;
     margin: auto;
  
    
@@ -155,7 +155,7 @@ button:hover{
 }
 
 a{
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bolder;
     color: black;
     text-decoration: none;
