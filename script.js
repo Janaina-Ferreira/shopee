@@ -63,14 +63,14 @@ document.addEventListener('DOMContentLoaded', function () {
   
 
  // Seleciona o botão do menu hambúrguer e a lista de navegação
-const mobileMenu = document.getElementById("mobile-menu");
-const navList = document.querySelector(".nav-list");
-
-// Adiciona um evento de clique no botão do menu
-mobileMenu.addEventListener("click", () => {
-  // Alterna a classe 'active' no menu, fazendo-o aparecer ou desaparecer
-  navList.classList.toggle("active");
-});
+ const mobileMenu = document.getElementById("mobile-menu");
+ const navList = document.querySelector(".nav-list");
+ 
+ // Adiciona um evento de clique no botão do menu
+ mobileMenu.addEventListener("click", () => {
+   // Alterna a classe 'active' no menu, fazendo-o aparecer ou desaparecer
+   navList.classList.toggle("active");
+ });
  
 
     
